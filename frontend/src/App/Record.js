@@ -318,7 +318,7 @@ class Record extends Component {
   silenceDetection = stream => {
     const options = {
       interval: "150",
-      threshold: -80
+      threshold: -70
     };
     const speechEvents = hark(stream, options);
 
