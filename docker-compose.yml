@@ -5,12 +5,12 @@ services:
     build:
       context: ./backend/
     ports:
-     - "5000:5000"
+     - "5080:5080"
     volumes: 
      - ./backend/:/src
     environment:
     - CORPUS=english_corpus.csv
-    - APIPORT=5000
+    - APIPORT=5080
     - WEBWORKERS=1
   frontend:
     container_name: mrs-frontend
