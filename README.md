@@ -1,5 +1,13 @@
 # Mimic Recording Studio
 
+### numberformat's changes
+
+November 2023
+
+1. For some weird reason updating pip fixes the issue 'ModuleNotFoundErro: No module named peewee'
+2. Port 5000 was taken on my machine so adjusted it to port 5080
+3. Fix for my microphone and background noise level. adjust to your environment.
+
 ![demo](./img/demo.gif)
 
 - [Mimic Recording Studio](#mimic-recording-studio)
